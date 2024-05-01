@@ -1,0 +1,1 @@
+In questa repository github potete trovare la mia carriera partendo dal diploma in Elettronica ed Elettrotecnica, alla laurea in Informatica, arrivando a vari progetto svilippati nel corso degli anni.
