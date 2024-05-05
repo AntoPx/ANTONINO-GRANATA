@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "AttDettaglio";
+}
+
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/stile.css" />
+</head>
+
+<h1>Dettaglio Attuarori</h1>
+
+<table class="table table-striped mt-4">
+        <thead>
+            <tr class="bg-success text-white">
+                <th>TerrenoId</th>
+                <th>Mappale</th>
+                <th>Foglio</th>
+                <th>TipoAttuatore</th>
+                <th>Standby</th>
+                <th>Attivazione</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var terr in Model)
+            {
+              <tr>
+                <td>@terr.TerrenoId</td>
+                <td>@terr.Mappale</td>
+                <td>@terr.Foglio</td>
+                <td>@terr.TipoAttuatore</td>
+                <td>@if (terr.Standby)
+                    {
+                        <input checked="checked" class="check-box" disabled="disabled" type="checkbox">
+                    }
+                    else
+                    {
+                        <input class="check-box" disabled="disabled" type="checkbox">
+                    }
+                </td>
+                <td>
+                @if (terr.Attivazione)
+                    {
+                        <input checked="checked" class="check-box" disabled="disabled" type="checkbox">
+                    }
+                    else
+                    {
+                        <input class="check-box" disabled="disabled" type="checkbox">
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@terr.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@terr.Id">Details</a> |
+                    @if (terr.Ruolo == "Agricoltore")
+                    {
+                        <a asp-action="Delete" asp-route-id="@terr.Id">|Delete </a>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-outline-success" style="background-color: #9FE2BF; color: #000;" asp-controller="Pianoes"
+                       asp-action="Details" asp-route-CodAttuatore="@terr.Id">Piano</a>
+                </td>
+            </tr>
+            }
+    </tbody>
+</table>
+<div>
+    <a class="btn action-button text-white" asp-controller="Terrenoes" asp-action="VisualizzaTerreno" asp-route-TerrenoId="@ViewData["IdTerreno"]" style="background-color: dodgerblue">Ritorna indietro</a>
+</div>

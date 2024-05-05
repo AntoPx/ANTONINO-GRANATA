@@ -1,0 +1,49 @@
+﻿@model IEnumerable<App_Progetto.Models.Misurazione>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Misurazioni del Sensore: @ViewData["codSensore"]</h1>
+    
+    <p>
+        <a class="btn btn-outline-success" style="background-color: #9FE2BF; color: #000;" asp-controller="Misuraziones"
+        asp-action="Create" asp-route-CodSensore=@ViewData["codSensore"]>Aggiungi Misurazione</a>
+    </p>
+@if (Model.Any())
+{    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataOra)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Valore)
+                </th>
+               <!---<th>
+                    @Html.DisplayNameFor(model => model.TipoMisurazione)
+                </th> -->
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataOra)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valore) - @Html.DisplayFor(modelItem => item.TipoMisurazione)
+                </td>
+                <td>
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id"> Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+}
+<div>
+    <a class="btn action-button text-white" asp-controller="Sensores" asp-action="Index" style="background-color: dodgerblue">Ritorna indietro</a>
+</div>

@@ -1,0 +1,35 @@
+﻿@model App_Progetto.Models.Misurazione
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Misurazione</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayName("CodiceSensore")
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sensores.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valore)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valore)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoMisurazione)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TipoMisurazione)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" asp-route-CodSensore="@Model.Sensores.Id">Back to List</a>
+</div>

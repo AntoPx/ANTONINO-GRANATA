@@ -1,0 +1,41 @@
+﻿@model App_Progetto.Models.Misurazione
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Eliminazione Misurazione</h1>
+
+<h3>Sei sicuro di voler eliminare?</h3>
+<br />
+<div>
+    <h4>Misurazione</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayName("CodiceSensore")
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sensores.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valore)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valore)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoMisurazione)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TipoMisurazione)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="DataOra" />
+        <input type="hidden" asp-for="CodiceSensore" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index" asp-route-CodSensore="@Model.Sensores.Id">Back to List</a>
+    </form>
+</div>

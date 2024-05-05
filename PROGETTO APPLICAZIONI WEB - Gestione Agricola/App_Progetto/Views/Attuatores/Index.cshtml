@@ -1,0 +1,76 @@
+﻿@model IEnumerable<App_Progetto.Models.Attuatore>
+
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/stile.css" />
+</head>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoAttuatore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Standby)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Attivazione)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Terreno.Mappale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Terreno.Foglio)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+               @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoAttuatore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Standby)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Attivazione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Terreno.Mappale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Terreno.Foglio)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"> Details</a> |
+                    @if (item.Terreno.Gestiones.Any(g => g.UserId == User.FindFirst(ClaimTypes.NameIdentifier)?.Value && g.Ruolo == "Agricoltore"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.Id"> Delete</a>
+                    }
+                    
+            </td>
+                <td>
+                    <a class="btn btn-outline-success" style="background-color: #9FE2BF; color: #000;" asp-controller="Pianoes"
+                       asp-action="Details" asp-route-CodAttuatore="@item.Id">Piano</a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
