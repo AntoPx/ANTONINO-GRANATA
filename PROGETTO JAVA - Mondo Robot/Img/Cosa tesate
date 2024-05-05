@@ -1,0 +1,24 @@
+Cosa testare
+
+L'inizializzazione, la creazione dell'oggetto
+
+Che le coordinate del robot generate non siano un muro o negative
+
+L'aggiornamento delle coordinate, anche in caso di azione proibita
+
+In caso di mancata chiusura verificare che l'errore venga lanciata
+
+Verificare che il cane si muova e che non infierisca mai con le celle fisse (muro, rubinetto)
+
+Acqua come cane
+
+Che lo stato dei componenti si aggiorni e non solo a livello visivo
+
+Che la creazione di una cella rubinetto o altro avvenga in una cella vuota
+
+
+
+
+
+
+Aggiungere il controllo di non inizializzare una cella a due oggetti
