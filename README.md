@@ -9,7 +9,7 @@ https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game
 
 https://github.com/AntoPx/Javacsipt-Node-Project-Help-The-Earth
 
-[https://github.com/AntoPx/C--Apt.NET-Project-Gestione-Agricola](https://github.com/AntoPx/Apt.NET-Project-Gestione-Agricola)
+https://github.com/AntoPx/Apt.NET-Project-Gestione-Agricola
 
 ## Competenze
 
