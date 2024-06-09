@@ -7,6 +7,8 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game
 
+https://github.com/AntoPx/Javacsipt-Node-Project-Help-The-Earth
+
 ## Competenze
 
 * **Linguaggi di programmazione:** C, Javascript, Node.js, Java, Arduino, Python
