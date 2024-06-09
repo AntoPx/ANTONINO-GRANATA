@@ -3,13 +3,16 @@ Profilo personale
 
 Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria, con una forte passione per l'innovazione tecnologica, l'elettronica, l'elettrotecnica e la meccanica su auto e moto d'epoca.
 
-## Link progetti
+## Progetti
 
+## Java Project 17 - MVC Maintenance Robot Game
 [Java Project 17 - MVC Maintenance Robot Game](https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game)
 
-https://github.com/AntoPx/Javacsipt-Node-Project-Help-The-Earth
+## Javacsipt Node Project - Help The Earth
+[Javacsipt Node Project - Help The Earth](https://github.com/AntoPx/Javacsipt-Node-Project-Help-The-Earth)
 
-https://github.com/AntoPx/Apt.NET-Project-Gestione-Agricola
+## Apt.NET Project - Gestione Agricola
+[Apt.NET Project - Gestione Agricola](https://github.com/AntoPx/Apt.NET-Project-Gestione-Agricola)
 
 ## Competenze
 
