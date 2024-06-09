@@ -3,6 +3,10 @@ Profilo personale
 
 Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria, con una forte passione per l'innovazione tecnologica, l'elettronica, l'elettrotecnica e la meccanica su auto e moto d'epoca.
 
+## Link progetti
+
+
+
 ## Competenze
 
 * **Linguaggi di programmazione:** C, Javascript, Node.js, Java, Arduino, Python
