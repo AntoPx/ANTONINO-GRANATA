@@ -5,7 +5,7 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ## Progetti
 
-[Java Project 17 - MVC Maintenance Robot Game](https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game](https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game/tree/main/PROGETTO%20JAVA%20-%20Mondo%20Robot)
+[Java Project 17 - MVC Maintenance Robot Game](https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game/tree/main/PROGETTO%20JAVA%20-%20Mondo%20Robot)
 
 [Javacsipt Node Project - Help The Earth](https://github.com/AntoPx/Javacsipt-Node-Project-Help-The-Earth)
 
