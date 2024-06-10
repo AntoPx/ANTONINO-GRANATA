@@ -11,6 +11,8 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 [Apt.NET Project - Gestione Agricola](https://github.com/AntoPx/Apt.NET-Project-Gestione-Agricola)
 
+[Python Project - Gioco del tris con AI - math](https://github.com/AntoPx/Tris-AI-Python)
+
 ## Competenze
 
 * **Linguaggi di programmazione:** C, Javascript, Node.js, Java, Arduino, Python
