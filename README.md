@@ -5,15 +5,15 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ## Progetti
 
-[Java Project 17 - MVC Maintenance Robot Game](https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game/tree/main/PROGETTO%20JAVA%20-%20Mondo%20Robot)
+[Python Project - Gioco del tris con AI - math](https://github.com/AntoPx/Tris-AI-Python)
+
+[Python Project - Blockchain Demo](https://github.com/AntoPx/Blockchain-Demo-Python/tree/main)
 
 [Javacsipt Node Project - Help The Earth](https://github.com/AntoPx/Javacsipt-Node-Project-Help-The-Earth/tree/main/PROGETTO%20WEB%20-%20Help%20The%20Earth)
 
 [Apt.NET Project - Gestione Agricola](https://github.com/AntoPx/Apt.NET-Project-Gestione-Agricola/tree/main/PROGETTO%20APPLICAZIONI%20WEB%20-%20Gestione%20Agricola)
 
-[Python Project - Gioco del tris con AI - math](https://github.com/AntoPx/Tris-AI-Python)
-
-[Python Project - Blockchain Demo](https://github.com/AntoPx/Blockchain-Demo-Python/tree/main)
+[Java Project 17 - MVC Maintenance Robot Game](https://github.com/AntoPx/Java-Project-17-MVC-Maintenance-Robot-Game/tree/main/PROGETTO%20JAVA%20-%20Mondo%20Robot)
 
 ## Competenze
 
