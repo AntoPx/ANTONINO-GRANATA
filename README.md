@@ -5,6 +5,8 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ## Progetti
 
+(https://github.com/AntoPx/app)
+
 [Python Project - Gioco del tris con AI - math](https://github.com/AntoPx/Tris-AI-Python)
 
 [Python Project - Blockchain Demo](https://github.com/AntoPx/Blockchain-Demo-Python/tree/main)
