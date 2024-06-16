@@ -5,7 +5,7 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ## Progetti
 
-[Spring Boot Project - Stack app](https://github.com/AntoPx/app)
+[Spring Boot Project - Stack app - MySQL](https://github.com/AntoPx/app)
 
 [Python Project - Gioco del tris con AI - math](https://github.com/AntoPx/Tris-AI-Python)
 
