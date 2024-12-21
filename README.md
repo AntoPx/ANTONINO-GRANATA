@@ -17,7 +17,7 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ## 🌟 Certificazioni
 
-Le mie certificazioni sono disponibili al seguente link: [Certificazioni](https://github.com/AntoPx/Certificazioni)
+- [**Certificazioni**](https://github.com/AntoPx/Certificazioni)
 
 ---
 
