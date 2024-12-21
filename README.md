@@ -15,6 +15,22 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ---
 
+## 🌟 Certificazioni
+
+- **Google IT Support Professional Certificate**  
+  Acquisito competenze nel supporto IT, inclusa la gestione dei sistemi operativi, reti, sicurezza e troubleshooting.
+
+- **Python for Data Science - IBM**  
+  Certificazione ottenuta attraverso Coursera, focalizzata sull'uso di Python per l'analisi dei dati.
+
+- **Certificazione Java - Oracle**  
+  Conoscenze approfondite della programmazione Java e del suo ecosistema.
+
+- **Certificazione Docker Essentials**  
+  Abilità nell'uso di Docker per la containerizzazione e gestione di applicazioni.
+
+---
+
 ## 🛠️ Competenze
 
 - **Linguaggi di programmazione:** C, Javascript, Node.js, Java, Arduino, Python
