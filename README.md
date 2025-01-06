@@ -40,10 +40,6 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 - Sviluppo in linguaggio C e C++ su schede elettroniche. Studio e analisi di sensori per telemetria. Debugging di codice. Integrazione hw/sw. Documentazione.
 
-### Operaio Agricolo presso HyLine Italia
-
-- Operaio agricolo inserito all’interno della catena di produzione dell’incubatoio.
-
 ### Alternanza Scuola-Lavoro presso IIS Verona-Trento
 
 - Partecipato a progetti di robotica industriale
