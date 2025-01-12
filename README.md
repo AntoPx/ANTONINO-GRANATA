@@ -32,15 +32,19 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ## 💼 Esperienze Lavorative
 
-### Software Developer presso Control Sistem S.R.L. Italia
+### Software Developer presso Control Sistem S.R.L. , Torino
 
 - Sviluppo in linguaggio C# con DOT.NET. Programmazione di software complessi per la gestione di macchinari industriali. Implementazione e utilizzo di periferiche AK, MODBUS e ASAP3. Utilizzo di protocolli come ETH-TCP. Debugging e risoluzione di problemi con alta complessità.
 
-### Software Developer presso ALTEN Italia
+### Software Developer presso ALTEN Italia, Milano
 
 - Sviluppo in linguaggio C e C++ su schede elettroniche. Studio e analisi di sensori per telemetria. Debugging di codice. Integrazione hw/sw. Documentazione.
 
-### Alternanza Scuola-Lavoro presso IIS Verona-Trento
+### Stage Curriculare presso INRETE S.R.L., Moncalieri, Torino
+
+- Realizzazione di un Cobot utilizzando l’AI sull’"Edge", ovvero Jetson AGX Orin e Rockchip Radxa RK3588 B.
+
+### Alternanza Scuola-Lavoro presso IIS Verona-Trento, Messina
 
 - Partecipato a progetti di robotica industriale
 - Monitorato il funzionamento dei ripetitori Rai e Mediaset
