@@ -6,6 +6,7 @@ Laureato in Informatica presso l'Università del Piemonte Orientale, Alessandria
 
 ## 🌟 Progetti
 
+- [**Python Project - DLL Test for Windows (x86 and x64)**](https://github.com/AntoPx/DLLtest)
 - [**Spring Boot Project - Stack app - MySQL**](https://github.com/AntoPx/app)
 - [**Python Project - Gioco del tris con AI - math**](https://github.com/AntoPx/Tris-AI-Python)
 - [**Python Project - Blockchain Demo**](https://github.com/AntoPx/Blockchain-Demo-Python/tree/main)
